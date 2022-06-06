@@ -45,11 +45,35 @@
 }
 /* BOTTOM-CONTENT */
 
+/* MAIN */
 
+/* SECTION-RETURNAL */
+.ms_sect_hero{
+    margin-top: 120px;
+    color: white;
+}
 
+.ms_bg_img{
+    background-image: url("../img/jumbo-bg.png");
+    background-position: center;
+    background-size: cover;
+}
 
+.ms_returnal_img{
+    width: 60%;
+}
 
+.ms_btn{
 
+}
+
+.ms_btn_red{
+    background-color: red;
+    border-color: darkred;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
 
 
 
@@ -72,5 +96,13 @@
 /* MEDIUM */
 
 /* LARGE */
-@media all and (min-width: 992px) {}
+@media all and (min-width: 992px) {
+    /* SECTION-RETURNAL */
+    .ms_returnal_img {
+        width: 20%;
+    }
+    .ms_p_small{
+        max-width: 39%;
+    }
+}
 /* LARGE */
