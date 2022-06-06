@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+/* HEADER */
+
+/* TOP-CONTENT */
+#ms_logo{
+    width: 80px;
+    margin-right: 20px;
+    vertical-align: baseline;
+}
+/* TOP-CONTENT */
+
+/* BOTTOM-CONTENT */
+.ms_drop_nav{
+    right: 0;
+    text-align: center;
+}
+
+.ms_drop_bot{
+    display: inline-block; 
+}
+
+.ms_link{
+    color: black;
+    text-decoration: none;
+}
+
+.ms_link::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    content: "\f111";
+    color: blue;
+    font-size: 5px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+#ms_search{
+    font-size: 30px;
+    color: black;
+}
+/* BOTTOM-CONTENT */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+@media all and (min-width: 575px) {}
+
+/* SMALL */
+@media all and (min-width: 576px) {}
+/* SMALL */
+
+/* MEDIUM */
+@media all and (min-width: 768px) {}
+/* MEDIUM */
+
+/* LARGE */
+@media all and (min-width: 992px) {}
+/* LARGE */
