@@ -82,7 +82,13 @@
     color: white;
 }
 
+.ms_col_text{
+    color: #727272;
+}
 
+.ms_calc_img{
+    width: calc(100% / 3);
+}
 
 
 
