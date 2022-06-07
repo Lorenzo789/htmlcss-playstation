@@ -4,7 +4,9 @@
 }
 
 /* HEADER */
-
+.ms_index{
+    z-index: 99;
+}
 /* TOP-CONTENT */
 #ms_logo{
     width: 80px;
@@ -89,7 +91,19 @@
 .ms_calc_img{
     width: calc(100% / 3 - 10px);
 }
+/* SECTION-PLAY-5 */
 
+/* SECTION-HERO-TWO */
+.ms_hero_two{
+    color: white;
+    width: 100%;
+}
+
+.ms_bg_two{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-size: cover;
+}
 
 
 
