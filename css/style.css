@@ -80,7 +80,7 @@
 /* SECTION-PLAY-5 */
 .ms_btn_blue{
     background-color: #2d64e6;
-    border-color: darkblue;
+    border-color: lightblue;
     color: white;
 }
 
@@ -112,6 +112,20 @@
 }
 /* SECTION-NEW-RELEASES */
 
+/* SECTION-PS-PLUS */
+.ms_bc_plus{
+    background-color: #bebcbb;
+}
+
+.ms_plus_img{
+    width: 300px
+}
+
+.ms_btn_grey{
+    background-color: #d9dadc;
+    border-color: #cdcecf;
+    color: #3c6fe5;
+}
 /* MAIN */
 
 
@@ -149,5 +163,6 @@
     .ms_p_small{
         max-width: 39%;
     }
+    /* SECTION-RETURNAL */
 }
 /* LARGE */
