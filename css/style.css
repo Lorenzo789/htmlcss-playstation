@@ -128,6 +128,24 @@
 }
 /* SECTION-PS-PLUS */
 
+/* SECTION-PS-NOW */
+.ms_bc_now{
+    background-color: #161c3b;
+}
+
+.ms_btn_white{
+    background-color: white;
+    border-color: #cdcecf;
+    color: black;
+}
+
+.ms_img_fit{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+/* SECTION-PS-NOW */
+
 /* MAIN */
 
 
