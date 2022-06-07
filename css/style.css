@@ -87,7 +87,7 @@
 }
 
 .ms_calc_img{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 10px);
 }
 
 
@@ -103,7 +103,15 @@
 /* SMALL */
 
 /* MEDIUM */
-@media all and (min-width: 768px) {}
+@media all and (min-width: 768px){ 
+    /* SECTION-PLAY-5 */
+    .ms_calc_img{
+        width: calc(100% / 5 - 10px);
+    }
+    div.d-flex.flex-wrap{
+        justify-content: space-between;
+    }
+}
 /* MEDIUM */
 
 /* LARGE */
