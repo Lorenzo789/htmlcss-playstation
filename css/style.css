@@ -86,6 +86,13 @@
 }
 /* SECTION-RETURNAL-HERO */
 
+/* SECTION-RETURNAL-CLANK */
+#ms_bord_off{
+    outline: 3px solid blue;
+    outline-offset: 2px; 
+}
+/* SECTION-RETURNAL-CLANK */
+
 /* SECTION-PLAY-5 */
 .ms_btn_blue{
     background-color: #2d64e6;
@@ -100,6 +107,19 @@
 .ms_calc_img{
     width: calc(100% / 3 - 10px);
 }
+
+.ms_opacity{
+    opacity: 0.5;
+}
+
+#ms_hov_div:hover{
+    border-bottom: 1px solid blue;
+}
+
+#ms_hov_div:hover img{
+    opacity: 1;
+}
+
 /* SECTION-PLAY-5 */
 
 /* SECTION-HERO-TWO */
