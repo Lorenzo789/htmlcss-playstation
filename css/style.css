@@ -91,6 +91,12 @@
     outline: 3px solid blue;
     outline-offset: 2px; 
 }
+
+#ms_hov_move:hover{
+    transition: margin-top 1s;
+    margin-top: -20px;
+    cursor: pointer;
+}
 /* SECTION-RETURNAL-CLANK */
 
 /* SECTION-PLAY-5 */
@@ -119,7 +125,6 @@
 #ms_hov_div:hover img{
     opacity: 1;
 }
-
 /* SECTION-PLAY-5 */
 
 /* SECTION-HERO-TWO */
