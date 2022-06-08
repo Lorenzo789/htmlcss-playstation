@@ -148,9 +148,20 @@
 
 /* MAIN */
 
+/* FOOTER */
+.ms_bc_foot{
+    background-color: #00439c;
+}
 
+.ms_foot_img{
+    width: 100px;
+}
 
-
+.ms_globe_img{
+    width: 35px;
+    padding: 0px 10px 10px 0px;
+}
+/* FOOTER */
 
 
 
