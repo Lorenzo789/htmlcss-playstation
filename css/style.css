@@ -40,9 +40,18 @@
     vertical-align: middle;
 }
 
+.ms_line_delete{
+    border: 0;
+    border-radius: 0;
+}
+
 #ms_search{
-    font-size: 30px;
     color: black;
+    padding: 0px 10px;
+}
+
+#ms_search_img{
+    width: 30px;
 }
 /* BOTTOM-CONTENT */
 
