@@ -53,6 +53,14 @@
 #ms_search_img{
     width: 30px;
 }
+
+.dropdown-toggle::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 800;
+    content: "\f078";
+    vertical-align: baseline;
+    border-top: 0;
+}
 /* BOTTOM-CONTENT */
 
 /* MAIN */
