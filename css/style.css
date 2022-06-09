@@ -40,9 +40,9 @@
     vertical-align: middle;
 }
 
-.ms_line_delete{
-    border: 0;
-    border-radius: 0;
+.ms_hov_whi:hover{
+    outline: 2px solid rgb(255, 255, 255);
+    outline-offset: -5px;
 }
 
 #ms_search{
@@ -52,6 +52,11 @@
 
 #ms_search_img{
     width: 30px;
+}
+
+.ms_line_delete{
+    border: 0;
+    border-radius: 0;
 }
 
 .dropdown-toggle::after{
@@ -92,6 +97,11 @@
     border-color: darkred;
     color: white;
 }
+
+.ms_hov_black:hover{
+    outline: 2px solid black;
+    outline-offset: -5px;
+}
 /* SECTION-RETURNAL-HERO */
 
 /* SECTION-RETURNAL-CLANK */
@@ -105,12 +115,18 @@
     margin-top: -20px;
     cursor: pointer;
 }
+
+.ms_hov_move:hover{
+    transition: margin-top 1s;
+    margin-top: -20px;
+    cursor: pointer;
+}
 /* SECTION-RETURNAL-CLANK */
 
 /* SECTION-PLAY-5 */
 .ms_btn_blue{
     background-color: #2d64e6;
-    border-color: lightblue;
+    border-color: #2d64e6;
     color: white;
 }
 
@@ -165,8 +181,13 @@
 
 .ms_btn_grey{
     background-color: #d9dadc;
-    border-color: #cdcecf;
+    border-color: #d9dadc;
     color: #3c6fe5;
+}
+
+.ms_hov_grey:hover{
+    outline: 2px solid #3c6fe5;
+    outline-offset: -5px;
 }
 /* SECTION-PS-PLUS */
 
